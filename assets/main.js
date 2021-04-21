@@ -1,11 +1,10 @@
 $(function(){
 
-  var openMenu;
   var activeIndex;
   var isActive = false;
 
  $(".main-list .hoverable").mouseenter(function(){
-   if(!isActive){
+   if(!isActive){ // PER APRIRNE SOLO UNA ALLA VOLTA CON HOVER
     var clickedLi = $(this).find(".drop-menu");
     clickedLi.addClass("active");
     isActive=true;
@@ -15,7 +14,7 @@ $(function(){
     
  })
 
- //CHIUSURA CON CLICK -> due casi
+ //CHIUSURA -> due casi
  $(".main-list .hoverable").click(function(){
    var clickedIndex = $(this).index();
    console.log("hai cliccato su index: "+clickedIndex);   
@@ -41,15 +40,6 @@ $(function(){
    }
  })
 
-
- //HOVER MOUSE USCITA ( chiusura menu)
- /* hoverable.mouseleave(function(){
-  //console.log(this)
-  var listItem = $(this).find(".drop-menu")
-  //console.log(listItem)
-  listItem.addClass("inactive")
-  isDown = false;
-}) */
 
 
 })

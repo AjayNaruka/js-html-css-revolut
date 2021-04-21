@@ -73,7 +73,7 @@ header ul li button{
   border-radius: 10px;
 }
 header ul li button.btn-grey{
-  background-color: lightgray
+  background-color: #EBEBEB
 }
 header ul li button.btn-black{
   background-color: black;

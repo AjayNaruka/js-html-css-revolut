@@ -3,6 +3,7 @@ $(function(){
   var activeIndex;
   var isActive = false;
 
+  //HOVER
  $(".main-list .hoverable").mouseenter(function(){
    if(!isActive){ // PER APRIRNE SOLO UNA ALLA VOLTA CON HOVER
     var clickedLi = $(this).find(".drop-menu");

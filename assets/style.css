@@ -84,6 +84,7 @@ header ul li button.btn-black{
 
 .drop-menu{
   position: absolute;
+  display: none
   /* height: 200px */;
   background-color: white;
   border-radius: 5px;
@@ -94,8 +95,8 @@ header ul li button.btn-black{
   color: gray;
 }
 /* DEBUG */
-.drop-menu.inactive{
-  display: none;
+.drop-menu.active{
+  display: block;
 }
 .features-menu .feature-col{
   width: 25%;

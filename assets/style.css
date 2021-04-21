@@ -65,6 +65,7 @@ header li.logo{
   margin-right: 50px;
 }
 header ul li button{
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
   border: none;
   padding: 10px 20px;
@@ -73,11 +74,17 @@ header ul li button{
   border-radius: 10px;
 }
 header ul li button.btn-grey{
-  background-color: #EBEBEB
+  background-color: rgba(230, 230, 230, 0.6)
+}
+header ul li button.btn-grey:hover{
+  background-color: #EBEBEB;
 }
 header ul li button.btn-black{
   background-color: black;
   color: white;
+}
+header ul li button.btn-black:hover{
+  background-color:#3E4043 ;
 }
 
 /* DROP MENU */
@@ -101,7 +108,10 @@ header ul li button.btn-black{
 .features-menu .feature-col{
   width: 25%;
   padding: 10px;
+  color:#CED5DB;
+  font-family: 'Roboto', sans-serif;
 }
+
 .features-menu .feature-col li.not-available{
   position: relative;
 }
